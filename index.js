@@ -14,7 +14,6 @@ function nowServing(current) {
   }
 }
 
-
 function currentLine(current) {
    var katzLine = []
      if (current.length !== 0) {
