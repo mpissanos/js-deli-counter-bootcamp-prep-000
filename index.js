@@ -4,13 +4,13 @@ function takeANumber(current) {
 }
 
 function nowServing(current) {
-   if (current.length !== 0) {
-     var currentCust = line[0];
-     current.shift()
-    return newLine;
-  } else {
-    return newLine;
-  }
+  // if (current.length !== 0) {
+  //   var currentCust = line[0];
+  //   current.shift()
+  //   return newLine;
+  // } else {
+  //   return newLine;
+  // }
 }
 
 function currentLine(current) {
