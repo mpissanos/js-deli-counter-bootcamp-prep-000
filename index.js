@@ -11,6 +11,7 @@ function nowServing(current) {
   } else {
     return newLine;
   }
+}  
 
 
 function currentLine(current) {
