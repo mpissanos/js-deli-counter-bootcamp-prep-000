@@ -1,4 +1,4 @@
-function takeANumber(current, name) {
+function takeANumber(current) {
  current.push(name);
  var pos = current.length;
  return `Welcome, ${name}. You are number ${pos} in line.`;
@@ -29,6 +29,6 @@ function currentLine(current) {
   } 
 }
 
-var line = ['cernan']
+var line = []
 
-console.log(takeANumber(line, 'manuel'))
+console.log(takeANumber(line))
