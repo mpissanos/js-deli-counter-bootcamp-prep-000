@@ -28,3 +28,7 @@ function currentLine(current) {
       return "The line is currently empty.";
   } 
 }
+
+var line = ['cernan']
+
+takeANumber(line, 'manuel')
