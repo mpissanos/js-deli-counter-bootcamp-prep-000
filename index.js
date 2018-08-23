@@ -31,4 +31,4 @@ function currentLine(current) {
 
 var line = ['cernan']
 
-takeANumber(line, 'manuel')
+console.log(takeANumber(line, 'manuel'))
