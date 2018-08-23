@@ -7,9 +7,9 @@ function nowServing(current) {
   if (current.length !== 0) {
     var currentCust = line[0];
     current.shift()
-    return newLine;
+    return current;
   } else {
-    return newLine;
+    return " No one in line";
   }
 }  
 
