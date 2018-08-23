@@ -1,5 +1,8 @@
+var lastNum = 0
+
 function takeANumber(current) {
- current.push(line.length + 1);
+ current.push(lastNum + 1);
+ lastNum++;
  return current;
 }
 
