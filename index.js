@@ -5,23 +5,23 @@ function takeANumber(current) {
 
 function nowServing(current) {
    if (current.length !== 0) {
-     var newLine =`Currently serving ${current[0]}.`;
+     var currentCust = line[0];
      current.shift()
     return newLine;
   } else {
-    return "There is nobody waiting to be served!";
+    return newLine;
   }
 }
 
 function currentLine(current) {
-   var katzLine = []
-     if (current.length !== 0) {
-       for( var i = 0; i < current.length ; i++) {
-       var name = current[i] ;
-       var pos = i + 1
-       katzLine.push(` ${pos}. ${name}`)
+  var katzLine = []
+    if (current.length !== 0) {
+      for( var i = 0; i < current.length ; i++) {
+      var name = current[i] ;
+      var pos = i + 1
+      katzLine.push(` ${pos}. ${name}`)
     }   
-       return "The line is currently:" + katzLine;
+      return "The line is currently:" + katzLine;
   
     } else { 
       return "The line is currently empty.";
